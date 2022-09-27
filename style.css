@@ -102,12 +102,12 @@ body .box {
           flex-direction: column;
   margin-top: 0px;
   height: 169px;
+  width: 509px;
   position: relative;
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  background-color: green;
 }
 
 .middle .text-slider .text {

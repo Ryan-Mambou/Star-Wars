@@ -15,13 +15,11 @@ body{
     align-items: center;
 
     .box{
-        
         width: 75%;
         display: flex;
         flex-direction: column;
         font-family: 'Montserrat', sans-serif;
         height: 600px;
-        
     }
 
 }
@@ -68,10 +66,9 @@ body{
     flex-direction: column;
     margin-top: 0px;  
     height: 169px;
-    //width: 509px;
+    width: 509px;
     position: relative;
     transition: transform 0.5s ease;   
-
 
     .text {
         height: 169px;
