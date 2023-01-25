@@ -27,12 +27,14 @@ body{
 .content{
     display: flex;
     height: 500px;
-    justify-content: space-between;
+    gap: 8rem;
 
     .left{
         display: flex;
+        flex: 5;
         flex-direction: column;
         justify-content: space-between;
+
         .top{
             display: flex;
             flex-direction: column;
@@ -66,7 +68,7 @@ body{
     flex-direction: column;
     margin-top: 0px;  
     height: 169px;
-    width: 509px;
+    
     position: relative;
     transition: transform 0.5s ease;   
 
@@ -75,12 +77,12 @@ body{
         position: absolute;
 
         .heading{
-            font-size: 40px;
+            font-size: 2.5rem;
             font-weight: 900;
         }
     
         .intro{
-            font-size: 20px;
+            font-size: 1.25rem;
             margin-top: 23px;
             line-height: 30px;
             font-weight: 700;
@@ -109,7 +111,6 @@ body{
 }
 
 .right {
-    width: 350px;
     height: 500px;
     display: flex;
     justify-content: flex-end;
@@ -122,7 +123,6 @@ body{
         top: 0px;
         bottom: 0px;
         transition: transform 0.5s ease;
-        
 
         .image {
            position: relative;
@@ -257,3 +257,10 @@ body{
             }
 
     }
+
+    @media only screen and (max-width: 768px) {
+
+        .navigation{
+            gap: 2rem;
+        }
+      }
